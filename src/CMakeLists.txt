@@ -12,4 +12,5 @@ add_library(api OBJECT api.cpp)
 link_libraries(api)
 
 add_executable(client client/client_randomio.cpp)
+add_executable(my_client client/my_client.cpp)
 add_subdirectory(server)
